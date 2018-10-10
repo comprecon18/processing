@@ -38,7 +38,7 @@ void draw() {
   tint(255,green,0);
   image(cam, 0, 0, width, height);
   
-  float opacity = map(mouseX, 0, 800, 0., 1.);
+  float opacity = map(mouseX, 0, 800, 0, 255);
   println(opacity);
   fill(0,0,0,opacity);
   rect(0,0,width,height);
