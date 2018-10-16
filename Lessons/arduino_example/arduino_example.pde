@@ -16,11 +16,11 @@ void setup() {
 
 void draw() {
   
-  knobValue = myArduino.analogRead(0);
-  println(knobValue);
+  //knobValue = myArduino.analogRead(0);
+  //println(knobValue);
   
-  background(0);
-  rect(knobValue,knobValue, 50,50);
+  //background(0);
+  //rect(knobValue,knobValue, 50,50);
   
 
   
